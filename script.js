@@ -83,7 +83,6 @@ function handleResultValidation() {
 function handleCellClick(clickedCellEvent){
 	//FIRST VALIDATING WEATHER THE CELL BEEN ALREADY CLICKED OR NOT BY USING A VARIABLE
 	const clickedCell = clickedCellEvent.target;
-	console.log(clickedCell)
 
 	const clickedCellIndex = parseInt( clickedCell.getAttribute("data-cell-index"))
 
